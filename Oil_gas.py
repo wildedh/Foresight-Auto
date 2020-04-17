@@ -8,6 +8,6 @@ def ocr(file_path, save_path):
 
 def ocr(input_pdf_or_image, output_pdf):
     ocrmypdf.ocr(input_pdf_or_image, output_pdf, rotate_pages=True,
-    remove_background=True, language="en", deskew=True, force_ocr=True)
+    remove_background=True, deskew=True, force_ocr=True)
 
-ocr("/Users/danielwilde/Desktop/BP1982_UK.pdf", "‎/Users/danielwilde/Desktop/BP1982_UK_searchable.pdf")
+ocr("/Users/danielwilde/Desktop/BakerHughes1987_UK.pdf","/Users/danielwilde/Desktop/output253.pdf")
